@@ -119,7 +119,7 @@ export async function POST(request){
                 metadata: {
                     orderIds: orderIds.join(','),
                     userId,
-                    appId: 'babyevent'
+                    appId: 'gocart'
                 }
             })
             return NextResponse.json({session})
